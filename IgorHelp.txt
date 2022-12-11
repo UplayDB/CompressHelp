@@ -1,0 +1,100 @@
+Ghost Recon Game Editor Help
+Last updated 09/13/01
+
+IMPORTANT NOTICE
+
+The Ghost Recon Game Editor is an *unsupported* tool.  There is no official
+technical support available.  The user community is the best place to seek
+further help.
+
+
+VIEWS
+
+The upper-left pane is the Minimap view...
+  Provides overview of the loaded map
+  Red box indicates visible area for plan and game views
+The lower-left pane is the Palette view...
+  Holds lists of available objects sorted by type
+The upper-middle pane is the Plan view...
+  Top-down 2D view with obstacle map
+  Displays placed objects as icons
+  Selected object appears in yellow brackets
+The lower-middle pane is the Game view...
+  3D Engine rendering of map
+The upper-right pane is the Database view...
+  A hierarchy of all objects in the current mission
+The lower-right pane is the Properties view...
+  Shows settings for the selected object
+
+
+CONTROLS
+
+<Delete> will remove the selected object from the mission
+
+--Minimap view--
+Click to reposition the camera for the Plan and Game views
+
+--Palette view--
+Double-click to add an object to the mission (unless the object requires a position)
+
+--Plan view--
+<Page Up> will zoom in
+<Page Down> will zoom out
+
+Numpad -/+ will change levels
+
+Hold <Ctrl> and cursor will change to crosshairs if valid position for object placement
+<Ctrl>+click to place an object in the mission of the type selected in the Palette view
+
+Click an icon to select the placed object – indicated with yellow brackets
+
+Double click to reposition Game view camera
+
+Drag icons to reposition
+
+Click and drag right mouse button to scroll map
+
+Hold <Shift> and click to set orientation for actors, vehicles, insertion zones, etc.
+
+Hold <Shift> to edit subpoints for a selected path or sound object
+  Click + icons to insert subpoints
+  Click – icons to remove subpoints
+  Click with cursor as crosshairs to append a subpoint
+
+Drag object subpoints by first selecting the object icon
+
+--Game view--
+Hold left mouse button for mouselook
+
+<q>, <w>, <e>, <a>, <s>, <d> to move the camera
+Hold <Shift> to double movement rate
+
+--Database view--
+Select object to find in Plan and Game views (if placed)
+
+Drag and drop objects and subtrees (for instance, shuffle actors between teams)
+Drag and drop plan steps to reorder
+
+--Properties view--
+Use type-dependent controls to edit selected object
+
+
+MENUS
+
+File menu
+  Igor primarily works with mission files (*.mis).  These are the files managed in the File menu.  User mods can be created and activated with the Mods dialog.
+
+Edit menu
+  The undo feature tracks all changes to the loaded mission file.  The undo buffer is cleared when you save the mission.  Map, mission, and briefing properties are also available from the Edit menu.
+
+View menu
+  These toggles can be used to filter the display of objects and map information.
+
+Script menu
+  The import and export options are for working with game type files (*.gtf).  Each of these files contains a stand-alone script.  Use the Edit option to access the script editor.
+
+Tools menu
+  These editors can be used to tweak many game parameters.  Many of them are not directly related to mission creation.  The command map generator constructs a rough backdrop image for new maps.
+
+Help menu
+  These documents are a starting point for learning how to modify and extend Ghost Recon.
